@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Blog</title>
+  </head>
+  <body id="change-background">
+
+    <header class="container">
+        <nav>
+          <div class="parent-div">
+            <!-- Logo -->
+            <div class="logo">
+              <h1>Tech<span>Blog</span></h1>
+            </div>
+            <!-- Links -->
+            <div class="links">
+              <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Single Post</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <!-- Search and change of icon -->
+            <div class="search-and-change-of-icon">
+              <div class="search">
+                <form action="">
+                  <input
+                    type="search"
+                    name=""
+                    id=""
+                    placeholder="search here..."
+                  />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-search"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                    />
+                  </svg>
+                </form>
+              </div>
+              <div class="change-of-icon">
+                <svg onclick="changeBackgroundColor()"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-brightness-high-fill"
+                  viewBox="0 0 16 16" 
+                >
+                  <path
+                    d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="hamburger" id="hamburger-menu">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list-nested" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+    <main class="container">
+        <div class="detail-main">
+            <div class="badge">
+                <button>Technology</button>
+            </div>
+            <div class="detail-title">
+                <h1>
+                    The Impact of Technology on the Workspace:
+                    How Technology is Changing
+                </h1>
+            </div>
+            <div class="detail-author">
+                <div class="detail-author-image"></div>
+                <div class="detail-author-name">
+                    <p>Tracey Kosy</p>
+                </div> |
+                <div class="detail-date-posted">
+                    <p>August 20, 2023</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="for-image">
+            <div class="detail-image"></div>
+
+            <article>
+                <div class="first-paragraph">
+                    <p>Traveling is an enriching experience that opens up new horizons, exposes us to different
+                        cultures, and creates memories that last a lifetime. However, traveling can also be
+                        stressful and overwhelming, especially if you don't plan and prepare adequately. In this
+                        blog article, we'll explore tips and tricks for a memorable journey and how to make the
+                        most of your travels.</p>
+
+                    <p>One of the most rewarding aspects of traveling is immersing yourself in the local culture
+                        and customs. This includes trying local cuisine, attending cultural events and festivals,
+                        and interacting with locals. Learning a few phrases in the local language can also go a
+                        long way in making connections and showing respect.</p>
+
+                    <h3>Research Your Destination</h3>
+
+                    <p>Before embarking on your journey, take the time to research your destination. This
+                        includes understanding the local culture, customs, and laws, as well as identifying top
+                        attractions, restaurants, and accommodations. Doing so will help you navigate your
+                        destination with confidence and avoid any cultural faux pas.</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. In hendrerit gravida rutrum quisque non
+                        tellus orci ac auctor. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Aenean
+                        euismod elementum nisi quis eleifend quam adipiscing vitae. Viverra adipiscing at in
+                        tellus.</p>
+                </div>
+
+                <blockquote>
+                    “ Traveling can expose you to new environments and potential health risks, so it's crucial to take precautions to stay safe and healthy.”
+                </blockquote>
+
+                <div class="second-paragraph">
+                    <p>Traveling is an enriching experience that opens up new horizons, exposes us to different
+                        cultures, and creates memories that last a lifetime. However, traveling can also be
+                        stressful and overwhelming, especially if you don't plan and prepare adequately. In this
+                        blog article, we'll explore tips and tricks for a memorable journey and how to make the
+                        most of your travels.</p>
+
+                    <p>One of the most rewarding aspects of traveling is immersing yourself in the local culture
+                        and customs. This includes trying local cuisine, attending cultural events and festivals,
+                        and interacting with locals. Learning a few phrases in the local language can also go a
+                        long way in making connections and showing respect.</p>
+
+                    <h3>Stay Safe and Healthy</h3>
+
+                    <p>Before embarking on your journey, take the time to research your destination. This
+                        includes understanding the local culture, customs, and laws, as well as identifying top
+                        attractions, restaurants, and accommodations. Doing so will help you navigate your
+                        destination with confidence and avoid any cultural faux pas.</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. In hendrerit gravida rutrum quisque non
+                        tellus orci ac auctor. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Aenean
+                        euismod elementum nisi quis eleifend quam adipiscing vitae. Viverra adipiscing at in
+                        tellus.</p>
+                </div>
+
+            </article>
+        </section>
+    </main>
+
+
+
+    <footer>
+
+        <div class="main-footer container">
+            <div class="logo-and-allrights">
+              <!-- Logo -->
+              <div class="logo">
+                <h1>Tech<span>Blog</span></h1>
+              </div>
+              <div class="terms-privacy-and-cookie">
+                <ul>
+                  <li><a href="#">Terms of use</a></li>
+                  <li><a href="#">Privacy and Policy</a></li>
+                  <li><a href="#">Cookie Policy</a></li>
+                </ul>
+              </div>
+            </div>
+            
+            <hr>
+            <div class="write-up">
+              <small>&copy; TechBlog 2023, All Rights Reserved.</small>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
